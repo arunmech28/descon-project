@@ -3,6 +3,7 @@
 
 import { motion } from 'framer-motion';
 import { navVariants } from '@/utils/motion';
+import Link from 'next/link';
 
 
 const navLinkClasses = 'nav-link w-full h-full font-sans font-bold flex justify-center items-center hover:cursor-pointer hover:text-navmenu';
@@ -22,7 +23,7 @@ const NavBar = () => {
             alt="search"
             className="w-16 object-contain"
           />
-          <a href='/' className='font-sans font-bold text-2xl' >DESCON</a>
+          <Link href='/' className='font-sans font-bold text-2xl' >DESCON</Link>
         </div>
         <nav className="nav-elements flex flex-6 px-6 items-center">
           <ul className='flex w-1/2 h-full justify-between'>

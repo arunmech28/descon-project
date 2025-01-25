@@ -1,11 +1,11 @@
 'use client'
 
 import styles from '@/styles'
-import { fadeIn, staggerContainer } from '@/utils/motion';
+import { staggerContainer } from '@/utils/motion';
 
 
 import { motion } from 'framer-motion';
-import { TitleText, TypingText } from './CustomTexts';
+import { TypingText } from './CustomTexts';
 import { useState } from 'react';
 import ExploreCard from './ExploreCard';
 
